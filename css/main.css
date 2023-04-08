@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"); /* Bootstrap Icons */
+
+* {
+    font-family: "Hind Siliguri", sans-serif;
+}
+
+/* Some custom code */
+
+.custom--bg-gradient {
+    background: linear-gradient(263.28deg, #FF7E56 -5.94%, #FA6234 119.27%);
+}
+
+.custom--card-bg-gradient {
+    background: linear-gradient(180deg, rgba(252, 99, 52, 0) 0%, rgba(252, 99, 52, 0) 7.45%, rgba(252, 99, 52, 0.34) 119.25%);
+}
+
+.buttonCustom {
+    background: linear-gradient(263.28deg, #FF7E56 -5.94%, #FA6234 119.27%);
+    transition: .8s;
+}
+.buttonCustom:hover {
+    background: linear-gradient(263.28deg, #ff5e2e -5.94%, #ff3e02 119.27%);
+    transition: .8s;
+}
+.buttonCustom:active {
+    background: linear-gradient(263.28deg, #e53400 -5.94%, #be3306 119.27%);
+    transition: .8s;
+}
+
+.custom--color-1 {
+    color: #FF7E56;
+}
+
+/* Настройка верхнего меню мобилка start */
+@media screen and (max-width:1000px) {
+    body > *, div > * {
+        padding: 0 !important;
+    }
+    header.pt-4.d-flex.align-content-between.flex-row {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center;
+        height: auto !important;
+    }
+    .d-inline-block.flex-shrink-1.flex-grow-1.align-self-center {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .d-inline-block.flex-shrink-1.flex-grow-1.align-self-center a {
+        margin: 0 !important;
+        font-size: 40px;
+    }
+    .d-flex.flex-row.text-center.align-content-center.w-100.align-content-between {
+        margin: 0 !important;
+        flex-direction: column !important;
+    }
+    .d-block.text-start.flex-shrink-1.flex-grow-1.align-self-center {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px !important;
+        text-align: center !important;
+        margin: 20px 0 !important;
+    }
+    .d-block.text-end.align-self-center.align-items-center.justify-content-center.flex-shrink-1.flex-grow-1 {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .d-block.text-end.align-self-center.align-items-center.justify-content-center.flex-shrink-1.flex-grow-1 img {
+        width: 100% !important;
+    }
+    .d-block.text-end.align-self-center.align-items-center.justify-content-center.flex-shrink-1.flex-grow-1 > div {
+        position: initial !important;
+        max-width: 90% !important;
+        margin: 15px 0;
+    }
+}
+/* Настройка верхнего меню мобилка END */
