@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"); /* Bootstrap Icons */
+
+* {
+    font-family: "Hind Siliguri", sans-serif;
+}
+
+/* Some custom code */
+
+.custom--bg-gradient {
+    background: linear-gradient(263.28deg, #FF7E56 -5.94%, #FA6234 119.27%);
+}
+
+.custom--card-bg-gradient {
+    background: linear-gradient(180deg, rgba(252, 99, 52, 0) 0%, rgba(252, 99, 52, 0) 7.45%, rgba(252, 99, 52, 0.34) 119.25%);
+}
+
+.buttonCustom {
+    background: linear-gradient(263.28deg, #FF7E56 -5.94%, #FA6234 119.27%);
+    transition: .8s;
+}
+.buttonCustom:hover {
+    background: linear-gradient(263.28deg, #ff5e2e -5.94%, #ff3e02 119.27%);
+    transition: .8s;
+}
+.buttonCustom:active {
+    background: linear-gradient(263.28deg, #e53400 -5.94%, #be3306 119.27%);
+    transition: .8s;
+}
+
+.custom--color-1 {
+    color: #FF7E56;
+}
+
+/* Настройка верхнего меню мобилка start */
+@media screen and (max-width:1000px) {
+    body > *, div > * {
+        padding: 0 !important;
+    }
+    header.pt-4.d-flex.align-content-between.flex-row {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center;
+        height: auto !important;
+    }
+    .d-inline-block.flex-shrink-1.flex-grow-1.align-self-center {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .d-inline-block.flex-shrink-1.flex-grow-1.align-self-center a {
+        margin: 0 !important;
+        font-size: 40px;
+    }
+    .d-flex.flex-row.text-center.align-content-center.w-100.align-content-between {
+        margin: 0 !important;
+        flex-direction: column !important;
+    }
+    .d-block.text-start.flex-shrink-1.flex-grow-1.align-self-center {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px !important;
+        text-align: center !important;
+        margin: 20px 0 !important;
+    }
+    .d-block.text-end.align-self-center.align-items-center.justify-content-center.flex-shrink-1.flex-grow-1 {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .d-block.text-end.align-self-center.align-items-center.justify-content-center.flex-shrink-1.flex-grow-1 img {
+        width: 100% !important;
+    }
+    .d-block.text-end.align-self-center.align-items-center.justify-content-center.flex-shrink-1.flex-grow-1 > div {
+        position: initial !important;
+        max-width: 90% !important;
+        margin: 15px 0;
+    }
+    .d-flex.flex-row.align-content-between {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .text-center.d-inline-block.flex-shrink-1.flex-grow-1 {
+        display: flex !important;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .text-center.d-inline-block.flex-shrink-1.flex-grow-1 {
+        display: flex !important;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .text-center.d-inline-block.flex-shrink-1.flex-grow-1 a {
+        margin: 0 !important;
+    }
+    .card.shadow.text-start, .card.shadow.text-center.rounded-4, .card.shadow.bg-white {
+        width: 90% !important;
+        padding: 20px !important;
+    }
+    .h-auto.w-100.d-flex.flex-row.align-content-between.py-5.text-center {
+        display: none !important;
+    }
+    footer.w-100.h-auto.d-flex.text-start.flex-row.align-content-between.align-items-center.text-center.bg-black.text-white {
+        display: flex !important;
+        text-align: center !important;
+        align-content: center !important;
+        flex-wrap: wrap;
+    }
+    .d-flex.flex-column.flex-shrink-1.text-start.ms-5.flex-grow-1.align-self-start {
+        margin: 0 !important;
+        text-align: center !important;
+        width: 100% !important;
+    }
+    .d-flex.flex-column.flex-shrink-1.flex-grow-1.align-self-start.text-start {
+        text-align: center !important;
+        display: flex !important;
+        align-items: center;
+        margin: 20px 0;
+    }
+    .d-flex.flex-column.flex-shrink-1.text-start.ms-5.flex-grow-1.align-self-start {
+        margin: 20px 0 !important;
+    }
+    p.opacity-50.fw-medium {
+        padding: 10px 20px !important;
+    }
+    .d-flex.flex-row.gap-4.align-content-between.justify-content-center.align-items-center, .mt-5.d-flex.flex-row.align-content-between.justify-content-center.text-center.gap-5 {
+        margin: 0 !important;
+    }
+    div#blog {
+        padding: 20px 20px !important;
+    }
+    input.rounded-2.border-0.me-0.border-opacity-50.px-4.py-3 {
+        width: 100% !important;
+    }
+    .mt-5.d-flex.flex-row.align-content-between.justify-content-center.text-center.gap-5 > div {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    h5.card-title {
+        padding: 20px 0 !important;
+        margin: 0 !important;
+    }
+    img.card-img-top.bg-black.bg-opacity-10 {
+        border: 1px solid #9e9b9b61;
+        box-shadow: 0px 0px 4px #adb5bd;
+        border-radius: 10px;
+    }
+    .btn.buttonCustom.px-3.py-3.ms-0.text-white {
+        margin-top: 20px;
+    }
+}
+/* Настройка верхнего меню мобилка END */
+.d-block.text-end.align-self-center.align-items-center.justify-content-center.flex-shrink-1.flex-grow-1 > div {
+    width: 90%;
+}
+.d-block.text-end.align-self-center.align-items-center.justify-content-center.flex-shrink-1.flex-grow-1 > div {
+    width: 90%;
+}
+body > div:nth-child(2) img.card-img-top {
+    height: 301px;
+    padding: 20px;
+}
